@@ -15,7 +15,7 @@ void mergeSort(int a[], int len){
 }
 
 void msort(int a[], int temp[],int low, int high){
-	int i=0;
+     	if(low>=high)return ;
 	int mid=high-(high-low)/2;
 	msort(a, temp,low,mid);
 	msort(a,temp,mid+1,high);

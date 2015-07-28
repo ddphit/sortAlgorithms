@@ -49,7 +49,7 @@ void heapSort(int a[], int len){
 
 	for(i=len-1;i>=1;--i){
 		swap(&a[0],&a[i]);
-		heapSize;
+		--heapSize;
 		maxHeap(a, 0);
 	}
 }
